@@ -58,6 +58,11 @@
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
             "required": true
         },
+        "UPSTREAM_REPO": {
+            "description": "If you want to use a customized fork of Evamaria, You can fill this config with github url of your fork.",
+            "value": "https://github.com/Lx0980/hshduchsnlsjsbdidbsmdjfbfjfng",
+            "required": false
+        }
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
             "required": false
